@@ -1,0 +1,34 @@
+  <head>
+    <title>Google Homepage</title>
+    <link href="google1.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links"><a href="#">Gmail</a></li>
+          <li class="nav-links"><a href="#">Images</a></li>
+          <li id="sign_in"><a href="#">Sign In</a></li>
+        </ul>  
+      </nav>  
+    </header>  
+    
+    <div class="google">
+      <a id="google_logo"><img src="http://i1381.photobucket.com/albums/ah215/mzartdesigns/google-logo_zpspkcztsjo.png" alt=" google logo"/></a>
+    </div>
+    
+    <div class="form">  
+      <form>
+        <label for="form-search"></label>
+        <input type="text" id="form-search" placeholder="Search Google or type URL"/>
+      </form>
+    </div>  
+    
+    <div class= "buttons">  
+      <input type="button" id="btn" value="Google Search" onClick="javascript: window.open('https://www.google.com/search?q=' + document.getElementById('form-search').value);" />
+      <input type="submit" value="I'm Feeling Lucky"/>
+    </div>
+      
+          
+  </body>
