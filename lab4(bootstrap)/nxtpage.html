@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Lab4</title>
+  <meta charset="utf-8">
+  <link href="stylesheet.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="javascript:void(0)">My Blog</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="lab4.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lastpage.html">Link</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="lastpage.html">Link</a></li>
+            <li><a class="dropdown-item" href="lastpage.html">Another link</a></li>
+            <li><a class="dropdown-item" href="lastpage.html">A third link</a></li>
+          </ul>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="lastpage.html">Disabled</a>
+        </li>
+      </ul>
+      <div class="form">
+        <form class="d-flex" action="http://www.google.com/search">
+          <label for="form-search"></label>
+          <input class="form-control me-2" type="text"  name="q" size="20" id="form-search" placeholder="Search">
+          <input  class=" bi bi-search btn btn-primary" type="button" id="btn" value="Search" onClick="javascript: window.open('https://www.google.com/search?q=' + document.getElementById('form-search').value);" />
+         
+        
+      </form>
+	  </div>
+    </div>
+  </div>
+</nav>
+<div  class="box1 ">
+
+    <img src="unnamed.jpg" alt="bootstrap" width=100%, >
+  
+    <div class="text1">
+        <h3> Random text Random text Random text Random text</h3>
+            <p> Im tired Im tired Im tired Im tired Im tired Im tired Im tired Im tired Im tired Im tired Im tired </p>
+            
+    </div>
+</div>
+
+
+
+
+<div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-sm-8">
+        <img src="https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_2580,c_limit/BlackForest-Germany-GettyImages-147180370.jpg" class="d-block" style="width:100%">
+        <br>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+        <br>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+        <br>
+        <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, rerum earum aspernatur deserunt dolorem eveniet, ullam dolor laborum ut vero, dignissimos sunt soluta temporibus labore fugiat nam commodi error! Nihil!
+        </p>
+	  </div>
+      <div class="col-sm-4">
+            <div class="p-5 my-5 bg-primary text-white col mt-1 dv2 ">
+              <h2>Subscribe for</h2>
+              <h2>Newsletters</h2>
+              <p>Get latest updates and freebies</p>
+              <form class="p"  action="/action_page.php">
+                <div class="d-grid gap-3" >
+                  <label for="email"></label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+                </div>
+                <div class="mt-3 d-grid">
+                  <button type="submit" class="btn btn-warning btn-block">Subscribe Now!</button>
+                </div>
+                
+              </div>
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Archives</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2018</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2019</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">2020</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Recent Posts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post One</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post Two</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Post Three</a>
+              </li>
+            </ul>
+            <hr class="d-sm-none">
+            </div>
+            
+          </div>
+    
+</div>
+<div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>Copyrights &#169; .All rights reserved</p>
+  </div>
+
+</body>
+</html>
+
